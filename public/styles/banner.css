@@ -1,0 +1,22 @@
+.banner {
+  justify-content: space-between; }
+
+.banner__player {
+  width: 550px; }
+
+video {
+  width: inherit;
+  background-image: url("../images/video-background.png"); }
+
+.banner__text {
+  font-size: 63px;
+  display: inline-block;
+  text-align: center;
+  color: white; }
+  .banner__text div:first-of-type {
+    padding-top: 15%; }
+
+.banner__text--yellow {
+  color: #f5c506; }
+
+/*# sourceMappingURL=banner.css.map */

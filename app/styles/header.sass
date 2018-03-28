@@ -1,0 +1,51 @@
+$dark-yellow: #866b01
+
+.header-and-banner
+    padding: 0 140px 60px 150px
+
+    background-image: url('../images/header-background.png')
+    background-size: 100%
+
+.header
+    justify-content: space-between
+
+    height: 100px
+
+.header__logo
+    font-family: 'LucidaSans-Ita'
+    font-size: 41px
+    font-style: italic
+
+    color: white
+
+.header__logo__caption
+    font-family: 'LaoUI'
+    font-size: 13px
+    font-style: normal
+    display: inline
+    color: white
+
+.header__navbar
+    font-family: 'SegoeWPN'
+
+    display: flex
+    align-self: flex-end
+
+    width: auto
+    margin-bottom: 45px
+    padding: 10px 0 0 0
+
+    color: $dark-yellow
+    background-image: url('../images/rectangle.png')
+
+.header__navbar__item
+    box-sizing: border-box
+    padding: 7px 6px 7px 6px
+    &:first-of-type
+        margin-left: 20px
+
+        border-right: 1px solid $dark-yellow
+    &:last-of-type
+        margin-right: 20px
+
+        border-left: 1px solid $dark-yellow

@@ -1,0 +1,51 @@
+.section-one {
+  padding: 40px 140px 40px 200px;
+  background-color: #f5c507; }
+
+.section-one__body {
+  margin-bottom: 110px; }
+
+.section-one__heading {
+  font-family: "PTSans";
+  font-size: 2.1em;
+  color: white; }
+
+.section-one__card {
+  font-family: "SegoeUI";
+  font-size: 1.6em;
+  padding: 0.5em 0.8em 0.3em 1em;
+  max-width: 400px;
+  color: white;
+  background-color: #ec9e03; }
+
+.section-one__card__text {
+  height: 80%; }
+
+.section-one__card--twitter {
+  text-align: center;
+  margin-left: 2em; }
+
+.section-one__card__right-content {
+  font-family: SegoeLight;
+  text-align: right; }
+
+.section-one__image-card {
+  background-image: url("../images/section-one-card.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.section-one__progress {
+  text-align: center; }
+  .section-one__progress progress {
+    width: 80%;
+    border: 0;
+    height: 18px;
+    border-radius: 9px; }
+  .section-one__progress progress::-webkit-progress-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px; }
+  .section-one__progress progress::-webkit-progress-value {
+    background-color: #eb9d03;
+    border-radius: 10px; }
+
+/*# sourceMappingURL=section-one.css.map */
