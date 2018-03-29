@@ -1,55 +1,73 @@
-$theme-yellow: #f5c506
-
 .section-two
-    padding: 40px 140px 40px 220px
-
     background-image: url('../images/section-two-background.png')
 
 .section-two__heading
     font-family: PTSans
-    font-size: 2.2em
+    font-size: 350%
     text-align: center
 
     color: $theme-yellow
-    padding-bottom: 1.5em
+    padding-top: 2%
 
 .section-two__image
+    height: fit-content
+    margin: auto 15px 40px 15px
     &:first-of-type
-        margin-right: 20px
-    &:last-of-type
-        margin-left: 20px
+        margin: auto 30px auto 0
+
+    @media screen and (min-width: $break-desktop)
+        margin-bottom: 110px
+
+.section-two__body
+    display: flex
+    justify-content: center
+
+.section-two__devices
+    text-align: center
+    display: flex
+    margin: 50px auto 40px auto
+
+    @media screen and (min-width: $break-desktop)
+        height: 400px
+        margin: 0 0 20px 0
+        width: fit-content
 
 .section-two__free-circle
     font-family: PTSans-Narrow
-    font-size: 1.2em
+    font-size: 1.4em
     font-weight: bold
-    line-height: 120px
-
-    z-index: 2
+    line-height: 130px
 
     width: 130px
-    height: 120px
-    margin-top: -35px
-    margin-right: -90px
-
-    text-align: center
+    height: 130px
+    position: relative
+    left: 90px
+    top: -40px
 
     color: white
     border-radius: 50%
     background-color: #f5c508
 
+    @media screen and (min-width: $break-desktop)
+        top: 30px
+
 .section-two__list
-    ul
-        list-style: none
-        list-style-image: url('../images/list-marker.svg')
-        padding-left: 5em
-        margin: 60px
-    li
-        padding-left: 1em
-        padding-bottom: .5em
-        font-family: OpenSans-Regular
-        color: #a9a9a7
-        font-size: 1.4em
-        text-indent: -.5em
-        &:last-of-type
-            padding-bottom: 0
+    display: none
+    
+    @media screen and (min-width: $break-desktop)
+        display: flex
+        align-items: center
+        padding-left: 100px
+        width: 30%
+        ul
+            list-style: none
+            list-style-image: url('../images/list-marker.svg')
+        li
+            padding-left: 1em
+            padding-bottom: .5em
+            font-family: OpenSans-Regular
+            color: #a9a9a7
+            font-size: 1.4em
+            text-indent: -.5em
+            &:last-of-type
+                padding-bottom: 0

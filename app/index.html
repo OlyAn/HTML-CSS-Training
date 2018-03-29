@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='../public/styles/layout/grid.css'>
+    <link rel='stylesheet' href='../public/styles/application.css'>
     <link rel='stylesheet' href='../public/icomoon/style.css'>
-    <link rel='stylesheet' href='../public/styles/header.css'>
-    <link rel='stylesheet' href='../public/styles/fonts.css'>
-    <link rel='stylesheet' href='../public/styles/banner.css'>
-    <link rel='stylesheet' href='../public/styles/icons-area.css'>
-    <link rel='stylesheet' href='../public/styles/section-one.css'>
-    <link rel='stylesheet' href='../public/styles/section-two.css'>
-    <link rel='stylesheet' href='../public/styles/footer.css'>
   </head>
   <body>
     <div class='header-and-banner'>
-      <div class='header grid grid-pad'>
-        <div class='header__logo col-1-2'>
+      <div class='header grid'>
+        <div class='header__logo'>
           <span class='icon-logo'></span>
           THEYALOW
           <div class='header__logo__caption'>
@@ -37,12 +30,21 @@
         </div>
       </div>
 
-      <div class='banner grid grid-pad'>
-        <div class='banner__player player'>
-          <video controls>
+      <div class='banner grid'>
+        <div class='banner__player'>
+          <div class='video__controls video__play'>
+            <span class='icon-play'></span>
+          </div>
+          <video class='banner__video' preload='none'>
             <source src='../public/video/sample-video.mp4' type='video/mp4'>
             Your browser does not support the video tag.
           </video>
+          <div class='video__controls video__pause'>
+            <span class='icon-pause'></span>
+          </div>
+          <div class='progress video__progress'>
+            <progress max=5 value=2></progress>
+          </div>
         </div>
         <div class='banner__text'>
           <div class='banner__text--yellow'>
@@ -56,26 +58,23 @@
     </div>
 
     <div class='icons-area grid'>
-      <div class='icons-area__section col-1-3'>
+      <div class='icons-area__section'>
         <span class='icons-area__icon icon--large icon-cloud'></span>
         <div class='icons-area__text'>BETTER DESIGN</div>
       </div>
-      <div class='icons-area__section col-1-3'>
+      <div class='icons-area__section'>
         <span class='icons-area__icon icon--large icon-leaf'></span>
         <div class='icons-area__text'>CUSTOMIZE</div>
       </div>
-      <div class='icons-area__section col-1-3'>
+      <div class='icons-area__section'>
         <span class='icons-area__icon icon--large icon-free'></span>
         <div class='icons-area__text'>IT'S FREE</div>
       </div>
     </div>
 
     <div class='section-one'>
-      <div class='section-one__heading'>
-        LOREM IPSUM DOLOR SIT AMET
-      </div>
-      <div class='section-one__body grid grid-pad'>
-        <div class='section-one__card col-1-4'>
+      <div class='section-one__body grid'>
+        <div class='section-one__card'>
           <div class='section-one__card__text'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
           </div>
@@ -84,9 +83,9 @@
           </div>
         </div>
 
-        <div class='section-one__image-card col-2-7'>
+        <div class='section-one__image-card'>
         </div>
-        <div class='section-one__card section-one__card--twitter col-1-4'>
+        <div class='section-one__card section-one__card--twitter-desktop'>
           <div class='section-one__card__right-content'>
             22
           </div>
@@ -96,24 +95,24 @@
           </div>
         </div>
       </div>
-      <div class='section-one__progress'>
-        <progress max=5 value=2></progress>
+      <div class='section-one__card--twitter'>
+        <span class='icon--xlarge icon-twitter'></span>
       </div>
     </div>
     <div class='section-two'>
       <div class='section-two__heading'>
         LOREM IPSUM DOLOR SIT AMET
       </div>
-      <div class='grid'>
-        <div class='section-two__free-circle'>
-          IT'S 100% FREE
-        </div>
-        <div class='section-two__devices col-3-5'>
+      <div class='section-two__body'>
+        <div class='section-two__devices'>
+          <div class='section-two__free-circle'>
+            IT'S 100% FREE
+          </div>
           <img class='section-two__image' src='../public/images/pc.png'> </img>
           <img class='section-two__image' src='../public/images/tablet.png'> </img>
           <img class='section-two__image' src='../public/images/mobile.png'> </img>
         </div>
-        <div class='section-two__list col-1-2'>
+        <div class='section-two__list'>
           <ul>
             <li>
               Sed ut perspiciatis unde omnis

@@ -17,10 +17,14 @@
         padding-right: 10px
 
 .footer__logo__caption
-    font-family: 'OpenSans-Regular'
-    font-size: 1em
-    font-style: normal
-    text-align: right
-    line-height: 2.5em
-    padding-right: 200px
-    color: white
+    display: none
+    
+    @media screen and (min-width: $break-desktop)
+        display: block
+        font-family: 'OpenSans-Regular'
+        font-size: 1em
+        font-style: normal
+        text-align: right
+        line-height: 2.5em
+        padding-right: 200px
+        color: white

@@ -15,7 +15,7 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
-  max-width: 100%
+  max-width: 100%;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -64,10 +64,26 @@
   content: "\e905";
   color: #f5c505;
 }
-.icon-play2:before {
+.icon-play:before {
   content: "\ea15";
+  font-size: 2.8em;
+  position: relative;
+  top: 10%;
+}
+.icon-pause:before {
+  content: "\ea15";
+  font-size: 1.7em;
+  position: relative;
+  top: 10%;
+  @media screen and (min-width: 1200px) {
+    font-size: 2.8em
+  }
 }
 
 .icon--large {
   font-size: 5em
+}
+
+.icon--xlarge {
+  font-size: 10em
 }

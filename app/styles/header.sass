@@ -1,51 +1,72 @@
-$dark-yellow: #866b01
-
 .header-and-banner
-    padding: 0 140px 60px 150px
-
-    background-image: url('../images/header-background.png')
     background-size: 100%
+    
+    @media screen and (min-width: $break-desktop)
+        padding: 10px 140px 60px 150px
+        background-image: url('../images/header-background.png')
 
 .header
-    justify-content: space-between
+    max-width: 1500px
+    background: url('../images/logo-background.png')
+    background-size: contain
+    height: 70px
 
-    height: 100px
+    @media screen and (min-width: $break-desktop)
+        background: none
+        justify-content: space-between
 
 .header__logo
     font-family: 'LucidaSans-Ita'
-    font-size: 41px
+    font-size: 2.7em
     font-style: italic
 
     color: white
+    padding: 1% 0 0 1%
+    margin-right: auto
+
+    @media screen and (min-width: $break-desktop)
+        width: 55%
 
 .header__logo__caption
-    font-family: 'LaoUI'
-    font-size: 13px
-    font-style: normal
-    display: inline
-    color: white
+    display: none
+
+    @media screen and (min-width: $break-desktop)
+        font-family: 'LaoUI'
+        font-size: 13px
+        font-style: normal
+        display: inline
+        color: white
 
 .header__navbar
+    width: 66.66%
     font-family: 'SegoeWPN'
-
+    font-size: 1.7em
     display: flex
-    align-self: flex-end
-
-    width: auto
-    margin-bottom: 45px
-    padding: 10px 0 0 0
 
     color: $dark-yellow
-    background-image: url('../images/rectangle.png')
+    background-color: $theme-yellow
+
+    @media screen and (min-width: $break-desktop)
+        justify-content: space-around
+        margin-top: 2.9%
+        width: 40%
+        height: fit-content
+        font-size: 1.2em
 
 .header__navbar__item
     box-sizing: border-box
-    padding: 7px 6px 7px 6px
+    padding: 20px 16px 7px 16px
     &:first-of-type
         margin-left: 20px
-
         border-right: 1px solid $dark-yellow
     &:last-of-type
         margin-right: 20px
-
         border-left: 1px solid $dark-yellow
+
+    @media screen and (min-width: $break-desktop)
+        padding: 10px 10px 10px 2px
+        height: max-content
+        &:first-of-type
+            padding-right: 20px
+        &:last-of-type
+            padding-left: 20px

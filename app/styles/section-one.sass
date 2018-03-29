@@ -1,9 +1,14 @@
 .section-one
-    padding: 40px 140px 40px 200px
     background-color: #f5c507
 
+    @media screen and (min-width: $break-desktop)
+        padding: 40px 140px 40px 200px
+
 .section-one__body
-    margin-bottom: 110px
+    max-width: 1200px
+
+    @media screen and (min-width: $break-desktop)
+        padding-bottom: 70px
 
 .section-one__heading
     font-family: 'PTSans'
@@ -13,39 +18,49 @@
 
 .section-one__card
     font-family: 'SegoeUI'
-    font-size: 1.6em
+    border: 10px solid white
+    font-size: 2.5em
 
     padding: 0.5em 0.8em 0.3em 1em
     max-width: 400px
     color: white
     background-color: #ec9e03
 
-.section-one__card__text
-    height: 80%
+    @media screen and (min-width: $break-desktop)
+        font-size: 1.5em
+        border: none
+        width: 35%
+        max-height: 200px
+        max-width: 350px
+
 
 .section-one__card--twitter
     text-align: center
-    margin-left: 2em
+    padding: 70px 0 70px 0
+
+    @media screen and (min-width: $break-desktop)
+        display: none
+
+.section-one__card--twitter-desktop
+    display: none
+    text-align: center
+    width: 35%
+    max-width: 300px
+
+    @media screen and (min-width: $break-desktop)
+        display: block
+
 
 .section-one__card__right-content
     font-family: SegoeLight
     text-align: right
 
 .section-one__image-card
+    width: 50%
     background-image: url('../images/section-one-card.png')
     background-repeat: no-repeat
     background-size: contain
+    border: 10px solid white
 
-.section-one__progress
-    text-align: center
-    progress
-        width: 80%
-        border: 0
-        height: 18px
-        border-radius: 9px
-    progress::-webkit-progress-bar
-        background-color: rgba(255, 255, 255, 0.5)
-        border-radius: 10px
-    progress::-webkit-progress-value
-        background-color: #eb9d03
-        border-radius: 10px
+    @media screen and (min-width: $break-desktop)
+        border: none
