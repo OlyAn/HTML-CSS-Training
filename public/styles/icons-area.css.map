@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,WAAW;EAEP,OAAO,EAAE,aAAa;EAEtB,gBAAgB,EAAE,yCAAyC;;AAE/D,oBAAoB;EAChB,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,eAAe;EAExB,UAAU,EAAE,MAAM;;AAEtB,iBAAiB;EACb,WAAW,EAAE,oBAAmC;;AAEpD,iBAAiB;EACb,WAAW,EAAE,YAAY;EACzB,SAAS,EAAE,KAAK",
-"sources": ["../../app/styles/icons-area.sass"],
-"names": [],
-"file": "icons-area.css"
-}

@@ -1,6 +1,6 @@
 .header-and-banner
     background-size: 100%
-    
+
     @media screen and (min-width: $break-desktop)
         padding: 10px 140px 60px 150px
         background-image: url('../images/header-background.png')
@@ -15,58 +15,58 @@
         background: none
         justify-content: space-between
 
-.header__logo
-    font-family: 'LucidaSans-Ita'
-    font-size: 2.7em
-    font-style: italic
+    &__logo
+        font-family: 'LucidaSans-Ita'
+        font-size: 2.7em
+        font-style: italic
 
-    color: white
-    padding: 1% 0 0 1%
-    margin-right: auto
-
-    @media screen and (min-width: $break-desktop)
-        width: 55%
-
-.header__logo__caption
-    display: none
-
-    @media screen and (min-width: $break-desktop)
-        font-family: 'LaoUI'
-        font-size: 13px
-        font-style: normal
-        display: inline
         color: white
+        padding: 1% 0 0 1%
+        margin-right: auto
 
-.header__navbar
-    width: 66.66%
-    font-family: 'SegoeWPN'
-    font-size: 1.7em
-    display: flex
+        @media screen and (min-width: $break-desktop)
+            width: 55%
 
-    color: $dark-yellow
-    background-color: $theme-yellow
+    &__logo-caption
+        display: none
 
-    @media screen and (min-width: $break-desktop)
-        justify-content: space-around
-        margin-top: 2.9%
-        width: 40%
-        height: fit-content
-        font-size: 1.2em
+        @media screen and (min-width: $break-desktop)
+            font-family: 'LaoUI'
+            font-size: 13px
+            font-style: normal
+            display: inline
+            color: white
 
-.header__navbar__item
-    box-sizing: border-box
-    padding: 20px 16px 7px 16px
-    &:first-of-type
-        margin-left: 20px
-        border-right: 1px solid $dark-yellow
-    &:last-of-type
-        margin-right: 20px
-        border-left: 1px solid $dark-yellow
+    &__navbar
+        width: 66.66%
+        font-family: 'SegoeWPN'
+        font-size: 1.7em
+        display: flex
 
-    @media screen and (min-width: $break-desktop)
-        padding: 10px 10px 10px 2px
-        height: max-content
+        color: $dark-yellow
+        background-color: $theme-yellow
+
+        @media screen and (min-width: $break-desktop)
+            justify-content: space-around
+            margin-top: 2.9%
+            width: 40%
+            height: fit-content
+            font-size: 1.2em
+
+    &__navbar-item
+        box-sizing: border-box
+        padding: 20px 16px 7px 16px
         &:first-of-type
-            padding-right: 20px
+            margin-left: 20px
+            border-right: 1px solid $dark-yellow
         &:last-of-type
-            padding-left: 20px
+            margin-right: 20px
+            border-left: 1px solid $dark-yellow
+
+        @media screen and (min-width: $break-desktop)
+            padding: 10px 10px 10px 2px
+            height: max-content
+            &:first-of-type
+                padding-right: 20px
+            &:last-of-type
+                padding-left: 20px

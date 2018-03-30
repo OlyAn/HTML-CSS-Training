@@ -3,27 +3,27 @@
         padding: 50px 0 30px 0
         justify-content: center
 
-.banner__player
-    position: relative
-    width: 100%
-    @media screen and (min-width: $break-desktop)
-        width: 40%
+    &__player
+        position: relative
+        width: 100%
+        @media screen and (min-width: $break-desktop)
+            width: 40%
 
-.banner__video
-    width: 100%
-    background-image: url('../images/video-background.png')
-    background-size: cover
+    &__video
+        width: 100%
+        background-image: url('../images/video-background.png')
+        background-size: cover
 
-.banner__text
-    display: none
-    @media screen and (min-width: $break-desktop)
-        display: inline-block
-        text-align: center
-        margin-left: 5%
-        font-size: 4.2em
-        color: white
-        div:first-of-type
-            margin-top: 10%
+    &__text
+        display: none
+        @media screen and (min-width: $break-desktop)
+            display: inline-block
+            text-align: center
+            margin-left: 5%
+            font-size: 4.2em
+            color: white
+            div:first-of-type
+                margin-top: 10%
 
-.banner__text--yellow
-    color: $theme-yellow
+    &__text--yellow
+        color: $theme-yellow

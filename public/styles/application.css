@@ -58,19 +58,16 @@ body {
   .banner {
     padding: 50px 0 30px 0;
     justify-content: center; } }
-
 .banner__player {
   position: relative;
   width: 100%; }
   @media screen and (min-width: 1200px) {
     .banner__player {
       width: 40%; } }
-
 .banner__video {
   width: 100%;
   background-image: url("../images/video-background.png");
   background-size: cover; }
-
 .banner__text {
   display: none; }
   @media screen and (min-width: 1200px) {
@@ -82,7 +79,6 @@ body {
       color: white; }
       .banner__text div:first-of-type {
         margin-top: 10%; } }
-
 .banner__text--yellow {
   color: #f5c506; }
 
@@ -94,7 +90,6 @@ body {
   font-weight: bold;
   color: white;
   background-color: #f5c504b8; }
-
 .video__play {
   left: 40%;
   top: 30%;
@@ -109,7 +104,6 @@ body {
       height: 80px;
       font-size: 1.4em;
       line-height: 1.4em; } }
-
 .video__pause {
   left: 3%;
   bottom: 10%;
@@ -123,7 +117,6 @@ body {
       height: 35px;
       font-size: 1em;
       line-height: 1em; } }
-
 .video__progress {
   text-align: center;
   position: relative;
@@ -162,60 +155,56 @@ body {
     .header {
       background: none;
       justify-content: space-between; } }
-
-.header__logo {
-  font-family: "LucidaSans-Ita";
-  font-size: 2.7em;
-  font-style: italic;
-  color: white;
-  padding: 1% 0 0 1%;
-  margin-right: auto; }
-  @media screen and (min-width: 1200px) {
-    .header__logo {
-      width: 55%; } }
-
-.header__logo__caption {
-  display: none; }
-  @media screen and (min-width: 1200px) {
-    .header__logo__caption {
-      font-family: "LaoUI";
-      font-size: 13px;
-      font-style: normal;
-      display: inline;
-      color: white; } }
-
-.header__navbar {
-  width: 66.66%;
-  font-family: "SegoeWPN";
-  font-size: 1.7em;
-  display: flex;
-  color: #866b01;
-  background-color: #f5c506; }
-  @media screen and (min-width: 1200px) {
-    .header__navbar {
-      justify-content: space-around;
-      margin-top: 2.9%;
-      width: 40%;
-      height: fit-content;
-      font-size: 1.2em; } }
-
-.header__navbar__item {
-  box-sizing: border-box;
-  padding: 20px 16px 7px 16px; }
-  .header__navbar__item:first-of-type {
-    margin-left: 20px;
-    border-right: 1px solid #866b01; }
-  .header__navbar__item:last-of-type {
-    margin-right: 20px;
-    border-left: 1px solid #866b01; }
-  @media screen and (min-width: 1200px) {
-    .header__navbar__item {
-      padding: 10px 10px 10px 2px;
-      height: max-content; }
-      .header__navbar__item:first-of-type {
-        padding-right: 20px; }
-      .header__navbar__item:last-of-type {
-        padding-left: 20px; } }
+  .header__logo {
+    font-family: "LucidaSans-Ita";
+    font-size: 2.7em;
+    font-style: italic;
+    color: white;
+    padding: 1% 0 0 1%;
+    margin-right: auto; }
+    @media screen and (min-width: 1200px) {
+      .header__logo {
+        width: 55%; } }
+  .header__logo-caption {
+    display: none; }
+    @media screen and (min-width: 1200px) {
+      .header__logo-caption {
+        font-family: "LaoUI";
+        font-size: 13px;
+        font-style: normal;
+        display: inline;
+        color: white; } }
+  .header__navbar {
+    width: 66.66%;
+    font-family: "SegoeWPN";
+    font-size: 1.7em;
+    display: flex;
+    color: #866b01;
+    background-color: #f5c506; }
+    @media screen and (min-width: 1200px) {
+      .header__navbar {
+        justify-content: space-around;
+        margin-top: 2.9%;
+        width: 40%;
+        height: fit-content;
+        font-size: 1.2em; } }
+  .header__navbar-item {
+    box-sizing: border-box;
+    padding: 20px 16px 7px 16px; }
+    .header__navbar-item:first-of-type {
+      margin-left: 20px;
+      border-right: 1px solid #866b01; }
+    .header__navbar-item:last-of-type {
+      margin-right: 20px;
+      border-left: 1px solid #866b01; }
+    @media screen and (min-width: 1200px) {
+      .header__navbar-item {
+        padding: 10px 10px 10px 2px;
+        height: max-content; }
+        .header__navbar-item:first-of-type {
+          padding-right: 20px; }
+        .header__navbar-item:last-of-type {
+          padding-left: 20px; } }
 
 .icons-area {
   padding: 40px 0 40px 0;
@@ -223,156 +212,140 @@ body {
   @media screen and (min-width: 1200px) {
     .icons-area {
       padding: 40px 140px 40px 150px; } }
-
-.icons-area__section {
-  width: 33.33%;
-  box-sizing: border-box;
-  padding: 7px 6px 7px 6px;
-  text-align: center; }
-
-.icons-area__icon {
-  text-shadow: -2px 2px 1px #969696; }
-
-.icons-area__text {
-  font-family: "SegoeLight";
-  font-size: 2.2em; }
-  @media screen and (min-width: 1200px) {
-    .icons-area__text {
-      font-size: 1.6em; } }
+  .icons-area__section {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 7px 6px 7px 6px;
+    text-align: center; }
+  .icons-area__icon {
+    text-shadow: -2px 2px 1px #969696; }
+  .icons-area__text {
+    font-family: "SegoeLight";
+    font-size: 2.2em; }
+    @media screen and (min-width: 1200px) {
+      .icons-area__text {
+        font-size: 1.6em; } }
 
 .section-one {
   background-color: #f5c507; }
   @media screen and (min-width: 1200px) {
     .section-one {
       padding: 40px 140px 40px 200px; } }
-
-.section-one__body {
-  max-width: 1200px; }
-  @media screen and (min-width: 1200px) {
-    .section-one__body {
-      padding-bottom: 70px; } }
-
-.section-one__heading {
-  font-family: "PTSans";
-  font-size: 2.1em;
-  color: white; }
-
-.section-one__card {
-  font-family: "SegoeUI";
-  border: 10px solid white;
-  font-size: 2.5em;
-  padding: 0.5em 0.8em 0.3em 1em;
-  max-width: 400px;
-  color: white;
-  background-color: #ec9e03; }
-  @media screen and (min-width: 1200px) {
-    .section-one__card {
-      font-size: 1.5em;
-      border: none;
-      width: 35%;
-      max-height: 200px;
-      max-width: 350px; } }
-
-.section-one__card--twitter {
-  text-align: center;
-  padding: 70px 0 70px 0; }
-  @media screen and (min-width: 1200px) {
-    .section-one__card--twitter {
-      display: none; } }
-
-.section-one__card--twitter-desktop {
-  display: none;
-  text-align: center;
-  width: 35%;
-  max-width: 300px; }
-  @media screen and (min-width: 1200px) {
-    .section-one__card--twitter-desktop {
-      display: block; } }
-
-.section-one__card__right-content {
-  font-family: SegoeLight;
-  text-align: right; }
-
-.section-one__image-card {
-  width: 50%;
-  background-image: url("../images/section-one-card.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 10px solid white; }
-  @media screen and (min-width: 1200px) {
-    .section-one__image-card {
-      border: none; } }
+  .section-one__body {
+    max-width: 1200px; }
+    @media screen and (min-width: 1200px) {
+      .section-one__body {
+        padding-bottom: 70px; } }
+  .section-one__heading {
+    font-family: "PTSans";
+    font-size: 2.1em;
+    color: white; }
+  .section-one__card {
+    font-family: "SegoeUI";
+    border: 10px solid white;
+    font-size: 2.5em;
+    padding: 0.5em 0.8em 0.3em 1em;
+    max-width: 400px;
+    color: white;
+    background-color: #ec9e03; }
+    @media screen and (min-width: 1200px) {
+      .section-one__card {
+        font-size: 1.5em;
+        border: none;
+        width: 35%;
+        max-height: 200px;
+        max-width: 350px; } }
+  .section-one__card--twitter {
+    text-align: center;
+    padding: 70px 0 70px 0; }
+    @media screen and (min-width: 1200px) {
+      .section-one__card--twitter {
+        display: none; } }
+  .section-one__card--twitter-desktop {
+    display: none;
+    text-align: center;
+    width: 35%;
+    max-width: 300px; }
+    @media screen and (min-width: 1200px) {
+      .section-one__card--twitter-desktop {
+        display: block; } }
+  .section-one__card__right-content {
+    font-family: SegoeLight;
+    text-align: right; }
+  .section-one__image-card {
+    width: 50%;
+    background-image: url("../images/section-one-card.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 10px solid white; }
+    @media screen and (min-width: 1200px) {
+      .section-one__image-card {
+        border: none; } }
 
 .section-two {
   background-image: url("../images/section-two-background.png"); }
-
-.section-two__heading {
-  font-family: PTSans;
-  font-size: 350%;
-  text-align: center;
-  color: #f5c506;
-  padding-top: 2%; }
-
-.section-two__image {
-  height: fit-content;
-  margin: auto 15px 40px 15px; }
-  .section-two__image:first-of-type {
-    margin: auto 30px auto 0; }
-  @media screen and (min-width: 1200px) {
-    .section-two__image {
-      margin-bottom: 110px; } }
-
-.section-two__body {
-  display: flex;
-  justify-content: center; }
-
-.section-two__devices {
-  text-align: center;
-  display: flex;
-  margin: 50px auto 40px auto; }
-  @media screen and (min-width: 1200px) {
-    .section-two__devices {
-      height: 400px;
-      margin: 0 0 20px 0;
-      width: fit-content; } }
-
-.section-two__free-circle {
-  font-family: PTSans-Narrow;
-  font-size: 1.4em;
-  font-weight: bold;
-  line-height: 130px;
-  width: 130px;
-  height: 130px;
-  position: relative;
-  left: 90px;
-  top: -40px;
-  color: white;
-  border-radius: 50%;
-  background-color: #f5c508; }
-  @media screen and (min-width: 1200px) {
-    .section-two__free-circle {
-      top: 30px; } }
-
-.section-two__list {
-  display: none; }
-  @media screen and (min-width: 1200px) {
-    .section-two__list {
-      display: flex;
-      align-items: center;
-      padding-left: 100px;
-      width: 30%; }
-      .section-two__list ul {
-        list-style: none;
-        list-style-image: url("../images/list-marker.svg"); }
-      .section-two__list li {
-        padding-left: 1em;
-        padding-bottom: 0.5em;
-        font-family: OpenSans-Regular;
-        color: #a9a9a7;
-        font-size: 1.4em;
-        text-indent: -0.5em; }
-        .section-two__list li:last-of-type {
-          padding-bottom: 0; } }
+  .section-two__heading {
+    font-family: PTSans;
+    font-size: 350%;
+    text-align: center;
+    color: #f5c506;
+    padding-top: 2%; }
+  .section-two__image {
+    height: fit-content;
+    margin: auto 15px 40px 15px; }
+    .section-two__image:first-of-type {
+      margin: auto 30px auto 0; }
+    @media screen and (min-width: 1200px) {
+      .section-two__image {
+        margin-bottom: 110px; } }
+  .section-two__body {
+    display: flex;
+    justify-content: center; }
+  .section-two__devices {
+    text-align: center;
+    display: flex;
+    margin: 50px auto 40px auto; }
+    @media screen and (min-width: 1200px) {
+      .section-two__devices {
+        height: 400px;
+        margin: 0 0 20px 0;
+        width: fit-content; } }
+  .section-two__free-circle {
+    font-family: PTSans-Narrow;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 130px;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 90px;
+    top: -40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #f5c508; }
+    @media screen and (min-width: 1200px) {
+      .section-two__free-circle {
+        top: 30px; } }
+  .section-two__list {
+    display: none; }
+    @media screen and (min-width: 1200px) {
+      .section-two__list {
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        width: 30%; }
+        .section-two__list ul {
+          list-style: none;
+          list-style-image: url("../images/list-marker.svg"); }
+        .section-two__list li {
+          padding-left: 1em;
+          padding-bottom: 0.5em;
+          font-family: OpenSans-Regular;
+          color: #a9a9a7;
+          font-size: 1.4em;
+          text-indent: -0.5em; }
+          .section-two__list li:last-of-type {
+            padding-bottom: 0; } }
 
 .footer {
   padding: 15px 0 15px 0;
@@ -381,27 +354,25 @@ body {
   box-shadow: inset 0px 3px 9px 0px #1c1c1c;
   color: white;
   background-color: #4c4c4c; }
-
-.footer__logo {
-  font-family: "LucidaSans-Ita";
-  font-size: 31px;
-  font-style: italic;
-  display: flex;
-  justify-content: center; }
-  .footer__logo .icon-logo {
-    padding-right: 10px; }
-
-.footer__logo__caption {
-  display: none; }
-  @media screen and (min-width: 1200px) {
-    .footer__logo__caption {
-      display: block;
-      font-family: "OpenSans-Regular";
-      font-size: 1em;
-      font-style: normal;
-      text-align: right;
-      line-height: 2.5em;
-      padding-right: 200px;
-      color: white; } }
+  .footer__logo {
+    font-family: "LucidaSans-Ita";
+    font-size: 31px;
+    font-style: italic;
+    display: flex;
+    justify-content: center; }
+    .footer__logo .icon-logo {
+      padding-right: 10px; }
+  .footer__logo-caption {
+    display: none; }
+    @media screen and (min-width: 1200px) {
+      .footer__logo-caption {
+        display: block;
+        font-family: "OpenSans-Regular";
+        font-size: 1em;
+        font-style: normal;
+        text-align: right;
+        line-height: 2.5em;
+        padding-right: 200px;
+        color: white; } }
 
 /*# sourceMappingURL=application.css.map */

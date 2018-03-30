@@ -1,73 +1,73 @@
 .section-two
     background-image: url('../images/section-two-background.png')
 
-.section-two__heading
-    font-family: PTSans
-    font-size: 350%
-    text-align: center
+    &__heading
+        font-family: PTSans
+        font-size: 350%
+        text-align: center
 
-    color: $theme-yellow
-    padding-top: 2%
+        color: $theme-yellow
+        padding-top: 2%
 
-.section-two__image
-    height: fit-content
-    margin: auto 15px 40px 15px
-    &:first-of-type
-        margin: auto 30px auto 0
+    &__image
+        height: fit-content
+        margin: auto 15px 40px 15px
+        &:first-of-type
+            margin: auto 30px auto 0
 
-    @media screen and (min-width: $break-desktop)
-        margin-bottom: 110px
+        @media screen and (min-width: $break-desktop)
+            margin-bottom: 110px
 
-.section-two__body
-    display: flex
-    justify-content: center
-
-.section-two__devices
-    text-align: center
-    display: flex
-    margin: 50px auto 40px auto
-
-    @media screen and (min-width: $break-desktop)
-        height: 400px
-        margin: 0 0 20px 0
-        width: fit-content
-
-.section-two__free-circle
-    font-family: PTSans-Narrow
-    font-size: 1.4em
-    font-weight: bold
-    line-height: 130px
-
-    width: 130px
-    height: 130px
-    position: relative
-    left: 90px
-    top: -40px
-
-    color: white
-    border-radius: 50%
-    background-color: #f5c508
-
-    @media screen and (min-width: $break-desktop)
-        top: 30px
-
-.section-two__list
-    display: none
-    
-    @media screen and (min-width: $break-desktop)
+    &__body
         display: flex
-        align-items: center
-        padding-left: 100px
-        width: 30%
-        ul
-            list-style: none
-            list-style-image: url('../images/list-marker.svg')
-        li
-            padding-left: 1em
-            padding-bottom: .5em
-            font-family: OpenSans-Regular
-            color: #a9a9a7
-            font-size: 1.4em
-            text-indent: -.5em
-            &:last-of-type
-                padding-bottom: 0
+        justify-content: center
+
+    &__devices
+        text-align: center
+        display: flex
+        margin: 50px auto 40px auto
+
+        @media screen and (min-width: $break-desktop)
+            height: 400px
+            margin: 0 0 20px 0
+            width: fit-content
+
+    &__free-circle
+        font-family: PTSans-Narrow
+        font-size: 1.4em
+        font-weight: bold
+        line-height: 130px
+
+        width: 130px
+        height: 130px
+        position: relative
+        left: 90px
+        top: -40px
+
+        color: white
+        border-radius: 50%
+        background-color: #f5c508
+
+        @media screen and (min-width: $break-desktop)
+            top: 30px
+
+    &__list
+        display: none
+
+        @media screen and (min-width: $break-desktop)
+            display: flex
+            align-items: center
+            padding-left: 100px
+            width: 30%
+            ul
+                list-style: none
+                list-style-image: url('../images/list-marker.svg')
+            li
+                padding-left: 1em
+                padding-bottom: .5em
+                font-family: OpenSans-Regular
+                color: #a9a9a7
+                font-size: 1.4em
+                text-indent: -.5em
+                &:last-of-type
+                    padding-bottom: 0
